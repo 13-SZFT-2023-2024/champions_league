@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#jumbotron {
+    background-color: #5d5dff;
+    height: 200px;
+}
+
+#jumbotron h1 {
+    align-items: center;
+    display: flex;
+    font-size: 3em;
+    font-weight: 700;
+    height: 200px;
+    line-height: 200px;
+    justify-content: space-around;
+}
+
+#jumbotron h1 img {
+    width: 150px;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    float: left;
+    width: 25%;
+}
+
+#navbar ul li button {
+    background-color: #3c3cbc;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border: none;
+}
+
+#navbar ul li button:hover {
+    background-color: #040494;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+}
+
+#content .csapat {
+    /* float: left; */
+    text-align: center;
+    padding: 1em;
+    width: 50%;
+}
+
+#content .csapat img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 1em;
+    font-size: 2em;
+}
+
+tr {
+    border-bottom: 10px solid black;
+    background-color: #d9d9f0;
+}
+
+td {
+    text-align: center;
+}
+
+td:first-of-type {
+    text-align: left;
+    padding-left: 5em;
+}
+
+td img {
+    width: 25px;
+}
