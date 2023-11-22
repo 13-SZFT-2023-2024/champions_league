@@ -23,16 +23,9 @@ const b = () => {
   const newContent = document.createElement("div");
   newContent.setAttribute("id", "content");
 
-  newContent.innerHTML =
-    "<div class='csapat'>\
-                                <h1>Arsenal</h1>\
-                                <img src='https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_4dsgumo7d4zupm2ugsvm4zm4d.png' alt='bm'>\
-                            </div>";
-  newContent.innerHTML +=
-    "<div class='csapat'>\
-                                <h1>PSV</h1>\
-                                <img src='https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_24fvcruwqrqvqa3aonf8c3zuy.png' alt='bm'>\
-                            </div>";
+  newContent.innerHTML = team_csapat(bteams[0].team_name, bteams[0].team_logo);
+  newContent.innerHTML += team_csapat(bteams[1].team_name, bteams[1].team_logo);
+
   newContent.innerHTML +=
     "<div class='csapat'>\
                                 <h1>Lens</h1>\

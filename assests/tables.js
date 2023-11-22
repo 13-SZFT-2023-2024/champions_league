@@ -49,24 +49,25 @@ function team_csoport(teams) {
                     <td>${teams[2].results[1]}</td>\
                     <td>${teams[2].results[2]}</td>\
                     <td>${teams[2].results[3]}</td>\
-                    <td>${teams[2].results[4]}/td>\
+                    <td>${teams[2].results[4]}</td>\
                     <td>${teams[2].results[5]}</td>\
                     <td>${teams[2].results[6]}</td>\
                     <td>${teams[2].results[7]}</td>\
                 </tr>\
                 <tr>\
                     <td>\
-                        <img src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png" alt="">\
-                        Fc Manchester United\
+                        <img src="${teams[3].team_logo}" alt="">\
+                        ${teams[3].team_name}\
                     </td>\
-                    <td>4</td>\
-                    <td>1</td>\
-                    <td>0</td>\
-                    <td>3</td>\
-                    <td>9</td>\
-                    <td>11</td>\
-                    <td>-2</td>\
-                    <td>3</td>\
+                    <td>${teams[3].results[0]}</td>\
+                    <td>${teams[3].results[1]}</td>\
+                    <td>${teams[3].results[2]}</td>\
+                    <td>${teams[3].results[3]}</td>\
+                    <td>${teams[3].results[4]}</td>\
+                    <td>${teams[3].results[5]}</td>\
+                    <td>${teams[3].results[6]}</td>\
+                    <td>${teams[3].results[7]}</td>\
+                    
                 </tr>\
             </table>`;
 }
