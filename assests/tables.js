@@ -1,4 +1,4 @@
-function team_csapat(team_name, team_logo, team_results) {
+function team_csoport(teams) {
   return `\
             <table>\
                 <tr>\
@@ -14,45 +14,45 @@ function team_csapat(team_name, team_logo, team_results) {
                 </tr>\
                 <tr>\
                     <td>\
-                        <img src="${team_logo}" alt="bm">\
-                        ${team_name}\
+                        <img src="${teams[0].team_logo}" alt="bm">\
+                        ${teams[0].team_name}\
                     </td>\
-                    <td>${team.results[0]}</td>\
-                    <td>4</td>\
-                    <td>0</td>\
-                    <td>0</td>\
-                    <td>11</td>\
-                    <td>6</td>\
-                    <td>5</td>\
-                    <td>12</td>\
+                    <td>${teams[0].results[0]}</td>\
+                    <td>${teams[0].results[1]}</td>\
+                    <td>${teams[0].results[2]}</td>\
+                    <td>${teams[0].results[3]}</td>\
+                    <td>${teams[0].results[4]}</td>\
+                    <td>${teams[0].results[5]}</td>\
+                    <td>${teams[0].results[6]}</td>\
+                    <td>${teams[0].results[7]}</td>\
                 </tr>\
                 <tr>\
                     <td>\
-                        <img src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_b3r6d8ydtmtjckam6pku9y400.png" alt="">\
-                        Fc Köbenhavn\
+                        <img src="${teams[1].team_logo}" alt="">\
+                        ${teams[1].team_name}\
                     </td>\
-                    <td>4</td>\
-                    <td>1</td>\
-                    <td>1</td>\
-                    <td>2</td>\
-                    <td>7</td>\
-                    <td>8</td>\
-                    <td>-1</td>\
-                    <td>4</td>\
+                    <td>${teams[1].results[0]}</td>\
+                    <td>${teams[1].results[1]}</td>\
+                    <td>${teams[1].results[2]}</td>\
+                    <td>${teams[1].results[3]}</td>\
+                    <td>${teams[1].results[4]}</td>\
+                    <td>${teams[1].results[5]}</td>\
+                    <td>${teams[1].results[6]}</td>\
+                    <td>${teams[1].results[7]}</td>\
                 </tr>\
                 <tr>\
                     <td>\
-                        <img src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png" alt="">\
-                        Fc Galatasaray\
+                        <img src="${teams[2].team_logo}" alt="">\
+                        ${teams[2].team_name}\
                     </td>\
-                    <td>4</td>\
-                    <td>1</td>\
-                    <td>1</td>\
-                    <td>2</td>\
-                    <td>7</td>\
-                    <td>9</td>\
-                    <td>-2</td>\
-                    <td>4</td>\
+                    <td>${teams[2].results[0]}</td>\
+                    <td>${teams[2].results[1]}</td>\
+                    <td>${teams[2].results[2]}</td>\
+                    <td>${teams[2].results[3]}</td>\
+                    <td>${teams[2].results[4]}/td>\
+                    <td>${teams[2].results[5]}</td>\
+                    <td>${teams[2].results[6]}</td>\
+                    <td>${teams[2].results[7]}</td>\
                 </tr>\
                 <tr>\
                     <td>\

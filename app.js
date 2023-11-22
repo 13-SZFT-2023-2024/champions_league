@@ -5,16 +5,8 @@ const a = () => {
 
   newContent.innerHTML = team_csapat(ateams[0].team_name, ateams[0].team_logo);
   newContent.innerHTML += team_csapat(ateams[1].team_name, ateams[1].team_logo);
-  newContent.innerHTML +=
-    "<div class='csapat'>\
-                                <h1>Galatasaray</h1>\
-                                <img src='https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png' alt='bm'>\
-                            </div>";
-  newContent.innerHTML +=
-    "<div class='csapat'>\
-                                <h1>Manchester United</h1>\
-                                <img src='https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png' alt='bm'>\
-                            </div>";
+  newContent.innerHTML += team_csapat(ateams[2].team_name, ateams[2].team_logo);
+  newContent.innerHTML += team_csapat(ateams[3].team_name, ateams[3].team_logo);
 
   document.body.replaceChild(newContent, content);
 
@@ -22,7 +14,8 @@ const a = () => {
   const newTabla = document.createElement("div");
   newTabla.setAttribute("id", "tabla");
 
-  newTabla.innerHTML = document.body.replaceChild(newTabla, tabla);
+  newTabla.innerHTML = team_csoport(ateams);
+  document.body.replaceChild(newTabla, tabla);
 };
 
 const b = () => {
