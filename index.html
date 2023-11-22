@@ -1,150 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stilus.css" />
-    <title>Champions League</title>
-  </head>
-  <body>
-    <div id="jumbotron">
-      <h1>
-        <img
-          src="https://assets.stickpng.com/images/5842fe06a6515b1e0ad75b3b.png"
-          alt="bl"
-        />
-        Champions League
-        <img
-          src="https://assets.stickpng.com/images/5842fe06a6515b1e0ad75b3b.png"
-          alt="bl"
-        />
-      </h1>
-    </div>
-    <div id="navbar">
-      <ul>
-        <li><button onclick="a()">A csoport</button></li>
-        <li><button onclick="b()">B csoport</button></li>
-        <li><button onclick="c()">C csoport</button></li>
-        <li><button onclick="d()">D csoport</button></li>
-      </ul>
-    </div>
-    <div id="content">
-      <div class="csapat">
-        <h1>Fc Bayern München</h1>
-        <img
-          src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_apoawtpvac4zqlancmvw4nk4o.png"
-          alt="bm"
-        />
-      </div>
-      <div class="csapat">
-        <h1>Fc Köbenhavn</h1>
-        <img
-          src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_b3r6d8ydtmtjckam6pku9y400.png"
-          alt="kh"
-        />
-      </div>
-      <div class="csapat">
-        <h1>Fc Galatasaray</h1>
-        <img
-          src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png"
-          alt="gs"
-        />
-      </div>
-      <div class="csapat">
-        <h1>Fc Manchester United</h1>
-        <img
-          src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png"
-          alt="mu"
-        />
-      </div>
-    </div>
-    <div id="tabla">
-      <table>
-        <tr>
-          <th>Csapat</th>
-          <th>P</th>
-          <th>GY</th>
-          <th>D</th>
-          <th>V</th>
-          <th>F</th>
-          <th>V</th>
-          <th>+/-</th>
-          <th>Pont</th>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_apoawtpvac4zqlancmvw4nk4o.png"
-              alt="bm"
-            />
-            Fc Bayern München
-          </td>
-          <td>4</td>
-          <td>4</td>
-          <td>0</td>
-          <td>0</td>
-          <td>11</td>
-          <td>6</td>
-          <td>5</td>
-          <td>12</td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_b3r6d8ydtmtjckam6pku9y400.png"
-              alt=""
-            />
-            Fc Köbenhavn
-          </td>
-          <td>4</td>
-          <td>1</td>
-          <td>1</td>
-          <td>2</td>
-          <td>7</td>
-          <td>8</td>
-          <td>-1</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png"
-              alt=""
-            />
-            Fc Galatasaray
-          </td>
-          <td>4</td>
-          <td>1</td>
-          <td>1</td>
-          <td>2</td>
-          <td>7</td>
-          <td>9</td>
-          <td>-2</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png"
-              alt=""
-            />
-            Fc Manchester United
-          </td>
-          <td>4</td>
-          <td>1</td>
-          <td>0</td>
-          <td>3</td>
-          <td>9</td>
-          <td>11</td>
-          <td>-2</td>
-          <td>3</td>
-        </tr>
-      </table>
-    </div>
-    <script src="./groups/agroup.js"></script>
-    <script src="./groups/bgroup.js"></script>
-    <script src="./assests/team_csapat.js"></script>
-    <script src="./assests/tables.js"></script>
-    <script src="./app.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./stilus.css" />
+        <title>Champions League</title>
+    </head>
+    <body>
+        <div id="jumbotron">
+            <h1>
+                <img
+                    src="https://assets.stickpng.com/images/5842fe06a6515b1e0ad75b3b.png"
+                    alt="bl"
+                />
+                Champions League
+                <img
+                    src="https://assets.stickpng.com/images/5842fe06a6515b1e0ad75b3b.png"
+                    alt="bl"
+                />
+            </h1>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li><button onclick="a()">A csoport</button></li>
+                <li><button onclick="b()">B csoport</button></li>
+                <li><button onclick="c()">C csoport</button></li>
+                <li><button onclick="d()">D csoport</button></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="csapat">
+                <h1>Fc Bayern München</h1>
+                <img
+                    src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_apoawtpvac4zqlancmvw4nk4o.png"
+                    alt="bm"
+                />
+            </div>
+            <div class="csapat">
+                <h1>Fc Köbenhavn</h1>
+                <img
+                    src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_b3r6d8ydtmtjckam6pku9y400.png"
+                    alt="kh"
+                />
+            </div>
+            <div class="csapat">
+                <h1>Fc Galatasaray</h1>
+                <img
+                    src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png"
+                    alt="gs"
+                />
+            </div>
+            <div class="csapat">
+                <h1>Fc Manchester United</h1>
+                <img
+                    src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png"
+                    alt="mu"
+                />
+            </div>
+        </div>
+        <div id="tabla">
+            <table>
+                <tr>
+                    <th>Csapat</th>
+                    <th>P</th>
+                    <th>GY</th>
+                    <th>D</th>
+                    <th>V</th>
+                    <th>F</th>
+                    <th>V</th>
+                    <th>+/-</th>
+                    <th>Pont</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img
+                            src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_apoawtpvac4zqlancmvw4nk4o.png"
+                            alt="bm"
+                        />
+                        Fc Bayern München
+                    </td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img
+                            src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_b3r6d8ydtmtjckam6pku9y400.png"
+                            alt=""
+                        />
+                        Fc Köbenhavn
+                    </td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>-1</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img
+                            src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_esa748l653sss1wurz5ps3228.png"
+                            alt=""
+                        />
+                        Fc Galatasaray
+                    </td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>-2</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img
+                            src="https://cdn.sportfeeds.io/soccer/images/teams/75x75/uuid_6eqit8ye8aomdsrrq0hk3v7gh.png"
+                            alt=""
+                        />
+                        Fc Manchester United
+                    </td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>11</td>
+                    <td>-2</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+        <script src="./groups/agroup.js"></script>
+        <script src="./groups/bgroup.js"></script>
+        <script src="./groups/cgroup.js"></script>
+        <script src="./groups/dgroup.js"></script>
+        <script src="./assests/team_csapat.js"></script>
+        <script src="./assests/table_row.js"></script>
+        <script src="./assests/tables.js"></script>
+        <script src="./app.js"></script>
+    </body>
 </html>
